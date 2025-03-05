@@ -25,6 +25,6 @@ const factura = {
     calcularTotal: function (descuento) {
         return (this.item1.calcularTotal() + this.item2.calcularTotal()) * descuento;   
     }
-}                   //Acordarse de hacer la ejecución y no sólo mostrar la funcion
+}                   
 
 console.log(factura.calcularTotal(0.8))

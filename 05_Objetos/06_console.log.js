@@ -13,3 +13,14 @@ window.console.log('Adiós')
 Pablo       // Como no hemos dclarado este objeto, nos salta el siguiente error
             // "Uncaught ReferenceError: Pablo is not defined". Básicamente porque
             // no está guardado en memoria.
+
+
+            
+const persona = {
+  nombre: "Ana",
+  edad: 30,
+  saludar: function() {
+    console.log("¡Hola!");
+  }
+};
+            
